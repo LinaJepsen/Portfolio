@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "FjallaOne";
+  src: local("FjallaOne"),
+    url("./assets/FjallaOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+* {
+  font-family: "FjallaOne";
+  box-sizing: border-box;
+
+  scroll-behavior: smooth;
+}
+
