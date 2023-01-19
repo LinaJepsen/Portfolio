@@ -7,20 +7,19 @@ const Header = () => {
 
     const [toggle, setToggle] = useState(false);
 
-    const links = ["About", "Skills", "Contact", "CV"];
+    const links = ["about", "skills", "contact"];
 
     //Lägga till så man kan ladda ner CV 
-    //Lägga till navigation på knapparna
 
     return (
-        <Container>
+        <Container id="header">
             <div className='title'>
                 <h2>Lina Jepsen</h2>
             </div>
             <NavbarLinks>
                 {links.map((i) => (
                     <li key={`link-${i}`}>
-                        <a href={`${i}`}>{i}</a>
+                        <a href={`#${i}`}>{i}</a>
                     </li>
                 ))}
             </NavbarLinks>

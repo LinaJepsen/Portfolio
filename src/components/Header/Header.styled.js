@@ -7,9 +7,6 @@ export const Container = styled.nav`
   align-items: center;
   border-bottom: solid 2px lightgrey;
 
-  /*   position: fixed;
-  z-index: 2; */
-
   .title {
     text-transform: uppercase;
     flex: 1;

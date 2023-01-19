@@ -1,12 +1,14 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import { Container, TitleContainer } from "./Main.styled";
+import { Arrow } from "../../styling/GlobalTheme";
 import profilePic from "../../assets/github.jpg";
 import { AppWrap } from '../Wrapper';
+import { IoIosArrowDown } from 'react-icons/io'
 
 const Main = () => {
     return (
-        <Container className="app__main app__flex">
+        <Container id="main" className="app__main app__flex">
             <TitleContainer>
                 <motion.div className='title-motion' whileInView={{ x: [-50, 50], opacity: [0, 5] }}
                     transition={{ duration: 3, delayChildren: 0.5 }}>
@@ -27,6 +29,15 @@ const Main = () => {
                     <img src={profilePic} alt="" />
                 </motion.div>
             </TitleContainer>
+            <Arrow>
+                <motion.div
+                    whileHover={{ scale: [null, 1.5, 1.4] }}
+                    transition={{ duration: 0.3 }}>
+                    <a href="#about">
+                        <IoIosArrowDown />
+                    </a>
+                </motion.div>
+            </Arrow>
         </Container >
     )
 }

@@ -6,6 +6,8 @@ import js2 from "../../assets/js2.png";
 import css from "../../assets/css.png";
 import react from "../../assets/react.png";
 import { AppWrap, MotionWrap } from '../Wrapper';
+import { IoIosArrowDown } from 'react-icons/io'
+import { Arrow } from "../../styling/GlobalTheme";
 
 const Skills = () => {
 
@@ -17,9 +19,8 @@ const Skills = () => {
     ];
 
     return (
-        <Container>
+        <Container id="skills">
             <h2>Skills</h2>
-
             <Item>
                 {skill.map((about, i) => (
                     <motion.div
@@ -34,6 +35,15 @@ const Skills = () => {
                     </motion.div>
                 ))}
             </Item>
+            <Arrow>
+                <motion.div
+                    whileHover={{ scale: [null, 1.5, 1.4] }}
+                    transition={{ duration: 0.3 }}>
+                    <a href="#contact">
+                        <IoIosArrowDown />
+                    </a>
+                </motion.div>
+            </Arrow>
         </Container>
     )
 }
