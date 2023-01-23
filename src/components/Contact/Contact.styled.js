@@ -15,7 +15,8 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.colors.darkGrey};
 
     &:hover {
-      color: ${({ theme }) => theme.colors.turquoise};
+      //color: ${({ theme }) => theme.colors.turquoise};
+      cursor: not-allowed;
     }
   }
 `;

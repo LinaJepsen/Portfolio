@@ -16,7 +16,7 @@ const Contact = () => {
                     <a className='mail' href="mailto:linajepsen@live.se">linajepsen@live.se</a>
                 </motion.div>
 
-                <p>You can also download my resume <a className='cv' href="#">here</a>.</p>
+                <p>You will soon be able to download my resume <a className='cv'/*  href="#" */>here</a>.</p>
             </div>
             <Arrow>
                 <motion.div

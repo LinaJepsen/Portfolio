@@ -16,14 +16,16 @@ const Main = () => {
                     <h1 className='name'>Lina</h1>
                     <h1 className='work-title'>I'm a junior frontend developer</h1>
                 </motion.div>
-                <div className='title'>
+                <motion.div className='title' whileInView={{ y: [-50, 0], opacity: [0, 5] }}
+                    transition={{ duration: 3, delayChildren: 0.5 }}>
                     <h1 className='hello-text'>Hi, my name is</h1>
                     <h1 className='name'>Lina</h1>
                     <h1 className='work-title'>I'm a junior frontend developer</h1>
-                </div>
-                <div className='picture'>
+                </motion.div>
+                <motion.div className='picture' whileInView={{ y: [50, 0], opacity: [0, 5] }}
+                    transition={{ duration: 3, delayChildren: 0.5 }}>
                     <img src={profilePic} alt="" />
-                </div>
+                </motion.div>
                 <motion.div className='picture-motion' whileInView={{ x: [50, -50], opacity: [0, 5] }}
                     transition={{ duration: 3, delayChildren: 0.5 }}>
                     <img src={profilePic} alt="" />
