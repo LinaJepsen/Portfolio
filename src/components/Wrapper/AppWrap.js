@@ -1,8 +1,6 @@
 import React from "react";
 import SocialMedia from "../SocialMedia/SocialMedia";
 
-//implementera CV som en symbol precis som social media, kan synas på andra sidan
-
 //Higher Order Component
 const AppWrap = (Component, idName, classNames) =>
   function HOC() {

@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./styling/GlobalTheme";
 import { theme } from "./styling/Theme";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Main />
         <About />
         <Skills />
+        <Projects />
         <Contact />
         <Footer />
       </ThemeProvider>

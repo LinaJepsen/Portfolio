@@ -6,9 +6,8 @@
 }
 
 * {
-  font-family: "FjallaOne";
+  font-family: "FjallaOne" !important;
   box-sizing: border-box;
-
   scroll-behavior: smooth;
 }
 

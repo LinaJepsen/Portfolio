@@ -39,7 +39,7 @@ const Skills = () => {
                 <motion.div
                     whileHover={{ scale: [null, 1.5, 1.4] }}
                     transition={{ duration: 0.3 }}>
-                    <a href="#contact">
+                    <a href="#projects">
                         <IoIosArrowDown />
                     </a>
                 </motion.div>

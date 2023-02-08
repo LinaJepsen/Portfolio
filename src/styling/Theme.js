@@ -7,6 +7,7 @@ export const theme = {
     skinPink: "#ffd6ba",
   },
   size: {
+    phone: "500px",
     smallScreen: "992px",
     mediumScreen: "1040px",
     largeScreen: "1400px",

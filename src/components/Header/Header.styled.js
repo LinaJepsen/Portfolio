@@ -7,6 +7,12 @@ export const Container = styled.nav`
   align-items: center;
   border-bottom: solid 2px lightgrey;
 
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  position: fixed;
+  z-index: 2;
+
   .title {
     text-transform: uppercase;
     flex: 1;
@@ -35,6 +41,12 @@ export const NavbarLinks = styled.ul`
         color: ${({ theme }) => theme.colors.turquoise};
         cursor: pointer;
       }
+    }
+
+    .navbar-resume {
+      padding: 4px;
+      border-radius: 8%;
+      background-color: ${({ theme }) => theme.colors.skyBlue};
     }
 
     @media screen and (max-width: 900px) {
@@ -114,10 +126,8 @@ export const NavbarMenu = styled.div`
 
       li {
         text-transform: uppercase;
-
         margin: 16px;
 
-       
     a {
       text-decoration: none;
       transition: all 0.3s ease-in-out;
@@ -133,5 +143,11 @@ export const NavbarMenu = styled.div`
     @media screen and (min-width: 900px) {
       display: none;
     }
-  
+
+    .navbar-resume {
+      padding: 4px;
+      border-radius: 8%;
+      background-color: ${({ theme }) => theme.colors.skyBlue};
+    }
+
 `;

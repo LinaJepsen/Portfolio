@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import { Container, TitleContainer } from "./Main.styled";
 import { Arrow } from "../../styling/GlobalTheme";
-import profilePic from "../../assets/github.jpg";
+import profilePic from "../../assets/profile-pic.jpg";
 import { AppWrap } from '../Wrapper';
 import { IoIosArrowDown } from 'react-icons/io'
 
@@ -28,7 +28,7 @@ const Main = () => {
                 </motion.div>
                 <motion.div className='picture-motion' whileInView={{ x: [50, -50], opacity: [0, 5] }}
                     transition={{ duration: 3, delayChildren: 0.5 }}>
-                    <img src={profilePic} alt="" />
+                    <img src={profilePic} alt="profile" />
                 </motion.div>
             </TitleContainer>
             <Arrow>
