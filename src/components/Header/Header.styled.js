@@ -16,6 +16,15 @@ export const Container = styled.nav`
   .title {
     text-transform: uppercase;
     flex: 1;
+    a {
+      transition: all 0.3s ease-in-out;
+      text-decoration: none;
+      color: ${({ theme }) => theme.colors.darkGrey};
+
+      &:hover {
+        color: ${({ theme }) => theme.colors.turquoise};
+      }
+    }
   }
 `;
 

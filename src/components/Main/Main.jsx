@@ -8,7 +8,7 @@ import { IoIosArrowDown } from 'react-icons/io'
 
 const Main = () => {
     return (
-        <Container id="main" className="app__main app__flex">
+        <Container id="home" className="app__main app__flex">
             <TitleContainer>
                 <motion.div className='title-motion' whileInView={{ x: [-50, 50], opacity: [0, 5] }}
                     transition={{ duration: 3, delayChildren: 0.5 }}>
@@ -24,7 +24,7 @@ const Main = () => {
                 </motion.div>
                 <motion.div className='picture' whileInView={{ y: [50, 0], opacity: [0, 5] }}
                     transition={{ duration: 3, delayChildren: 0.5 }}>
-                    <img src={profilePic} alt="" />
+                    <img src={profilePic} alt="profile" />
                 </motion.div>
                 <motion.div className='picture-motion' whileInView={{ x: [50, -50], opacity: [0, 5] }}
                     transition={{ duration: 3, delayChildren: 0.5 }}>

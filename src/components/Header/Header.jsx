@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <Container id="header">
             <div className='title'>
-                <h2>Lina Jepsen</h2>
+                <a href="#home"><h2>Lina Jepsen</h2></a>
             </div>
             <NavbarLinks>
                 {links.map((i) => (
