@@ -58,7 +58,7 @@ export const NavbarLinks = styled.ul`
       background-color: ${({ theme }) => theme.colors.skyBlue};
     }
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 899px) {
       display: none;
     }
   }

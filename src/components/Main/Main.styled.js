@@ -42,7 +42,7 @@ export const TitleContainer = styled.div`
     box-shadow: 0 0 20px;
   }
 
-  @media screen and (max-width: 1040px) {
+  @media screen and (max-width: 1039px) {
     display: flex;
     flex-direction: column;
     align-items: center;
