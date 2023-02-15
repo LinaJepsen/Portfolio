@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cfad948d.css",
-    "main.js": "/static/js/main.18862ec2.js",
+    "main.js": "/static/js/main.77c2efa4.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
     "static/media/brand-icons.svg": "/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/static/media/icons.62d9dae4e0040e81c980.svg",
@@ -9,10 +9,10 @@
     "static/media/outline-icons.svg": "/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
     "static/media/icons.eot": "/static/media/icons.a01e3f2d6c83dc3aee17.eot",
     "static/media/icons.ttf": "/static/media/icons.c656b8caa454ed19b9a2.ttf",
-    "static/media/LinaJepsenCV.pdf": "/static/media/LinaJepsenCV.d7a75c4e20369f496a06.pdf",
     "static/media/brand-icons.eot": "/static/media/brand-icons.d68fa3e67dbb653a13ce.eot",
     "static/media/brand-icons.ttf": "/static/media/brand-icons.65a2fb6d9aaa164b41a0.ttf",
     "static/media/profile-pic.jpg": "/static/media/profile-pic.657847d11b9c4dc9f360.jpg",
+    "static/media/LinaJepsenCV.pdf": "/static/media/LinaJepsenCV.47ac1656689a3ee68a6f.pdf",
     "static/media/html.png": "/static/media/html.c4d9c8dcdf4078875355.png",
     "static/media/brand-icons.woff": "/static/media/brand-icons.cac87dc00c87a5d74711.woff",
     "static/media/brand-icons.woff2": "/static/media/brand-icons.278156e41e0ad908cf7f.woff2",
@@ -28,11 +28,11 @@
     "static/media/js2.png": "/static/media/js2.2bdb75d5701d6edac0bb.png",
     "index.html": "/index.html",
     "main.cfad948d.css.map": "/static/css/main.cfad948d.css.map",
-    "main.18862ec2.js.map": "/static/js/main.18862ec2.js.map",
+    "main.77c2efa4.js.map": "/static/js/main.77c2efa4.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cfad948d.css",
-    "static/js/main.18862ec2.js"
+    "static/js/main.77c2efa4.js"
   ]
 }
