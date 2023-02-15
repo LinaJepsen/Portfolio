@@ -12,17 +12,18 @@ const About = () => {
             <h2>About me</h2>
             <div>
                 <p>
-                    Here you have a junior frontend developer who is eager to learn more about web development and coding.
-                    I am an organized, hardworking and a humble person with a warm heart. I have always had an interest for all the
-                    things you can do on the web. Already from a young age I could spend hours on the computer, playing games,
-                    make and style blogs, chat with friends etc.
-                    This lays the ground for my motivation to become a frontend developer today. I'm now looking for a junior
-                    frontend position to kick start my career after 2 years of education so I can learn among professionals.
+                    Meet a junior frontend developer who is enthusiastic about learning more about web development and coding.
+                    I am a humble, hardworking, and organized individual with a warm heart.
+                    My passion for web development dates back to my childhood days, where I would spend countless hours on the computer,
+                    engaging in various activities such as playing games, creating and styling blogs, and chatting with friends.
+
+                    Today, I have turned my passion into a career and in June 2023 I will finish two years of education in frontend development.
+                    I am now eagerly seeking a junior frontend position to kick-start my career and learn from seasoned professionals.
                 </p>
             </div>
             <div>
                 <p>
-                    If I don't sit by the computer I'm probably petting my dog, working out at the gym or playing padel.
+                    When I'm not sitting in front of my computer, you can find me petting my dog, working out at the gym, or playing padel.
                 </p>
             </div>
             <div>
