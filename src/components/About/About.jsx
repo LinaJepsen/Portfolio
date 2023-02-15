@@ -13,10 +13,8 @@ const About = () => {
             <div>
                 <p>
                     Meet a junior frontend developer who is enthusiastic about learning more about web development and coding.
-                    I am a humble, hardworking, and organized individual with a warm heart.
                     My passion for web development dates back to my childhood days, where I would spend countless hours on the computer,
                     engaging in various activities such as playing games, creating and styling blogs, and chatting with friends.
-
                     Today, I have turned my passion into a career and in June 2023 I will finish two years of education in frontend development.
                     I am now eagerly seeking a junior frontend position to kick-start my career and learn from seasoned professionals.
                 </p>
