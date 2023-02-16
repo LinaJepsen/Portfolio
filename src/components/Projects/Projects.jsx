@@ -10,7 +10,7 @@ const Projects = () => {
 
     const projects = [
         { title: "E-Wallet", imgUrl: projectPic, desc: "This school project is made in React with react router and redux.", link: "https://github.com/LinaJepsen/reactproject-e-wallet" },
-        { title: "Highscore", imgUrl: projectPic, desc: "This school project is made in React, but it also has a backend with Node.js.", link: "https://github.com/LinaJepsen/highscore" },
+        { title: "Highscore", imgUrl: projectPic, desc: "This school project is made in React, but it also has a backend with Node.js.", link: "https://github.com/LinaJepsen/highscore.git" },
     ];
 
     return (

@@ -37,7 +37,7 @@ const Contact = () => {
     return (
         <Container id="contact">
             <h2>Get in touch</h2>
-            <p>Wanna know more or have any questions? Send me a message!</p>
+            <p>Want to know more or have any questions? Send me a message!</p>
             <DivForm>
                 <Form className="form" onSubmit={handleOnSubmit}>
                     <Form.Field
